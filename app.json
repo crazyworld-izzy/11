@@ -1,3 +1,4 @@
+
 {
   "name": "PornHub downloader bot",
   "description": "Telegram Porn Hub Bot Written In Python Using ARQ API.",
@@ -16,13 +17,7 @@
     "API",
     "Download"
   ],
-  "stack": "heroku-20",
-  "buildpacks": [
-    {
-      "url": "heroku/python"
-    }
-  ],
-  "env": {
+    "env": {
     "TOKEN": {
             "description": "Bot Token of your Telegram Bot from @BotFather",
             "required": true
@@ -43,7 +38,7 @@
     "formation": {
       "worker": {
         "quantity": 1,
-        "size": "free"
+        "size": "eco"
       }
   }
 }
